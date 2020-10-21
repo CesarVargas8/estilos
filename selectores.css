@@ -1,0 +1,27 @@
+h2 {
+    color: red;    /*selector de agrupación, agrupa todos los elementos h2*/
+  }
+  p {
+    color: green;    /*selector de agrupación, agrupa todos los elementos p*/
+  }
+.prueba_grande{
+    font-style:italic;
+    font-weight:bold;    /*atributo de clase,agrupa los atributos .prueba_grande*/
+    font-size:2em;
+    color: black;
+}
+.prueba{
+    color: chocolate;     /*atributo de clase,agrupa los atributos .prueba*/
+}
+#azul{
+    color: blue;   /*selectores de ID,agrupa los id #azul*/
+}
+#grisaceo{
+ color: gray;        /*selectores de ID,agrupa los id #grisaceo*/
+}
+:lang(es-MX) > h2 { quotes: '« ' ' »'; }    /*utilizados para modificar elementos en función del idioma en el que se determina que están*/
+:lang(es-ES) > h2 { quotes: '« ' ' »'; }
+
+h2[title] {
+    color: purple;   /*atributo de clase,agrupa los atributos que tengan title*/
+  }
